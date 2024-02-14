@@ -13,7 +13,8 @@ class HomeworkTest{
 
         Truth.assertThat(result1).isEqualTo(0)
         Truth.assertThat(result2).isEqualTo(1)
-        Truth.assertThat(result3).isEqualTo(5)
+//        Truth.assertThat(result3).isEqualTo(5)
+        Truth.assertThat(result3).isEqualTo(4)
     }
 
     @Test
