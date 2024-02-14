@@ -60,9 +60,9 @@ class RegistrationUtilTest {
         Truth.assertThat(resultErmhood).isFalse()
     }
 
-    //password contains less than two digits
+    //password contains less than two (numerical) digits
     @Test
-    fun `password of less than two digits returns false`() {
+    fun `password of less than two (numerical) digits returns false`() {
         val resultErmhood = RegistrationUtil.validateRegistrationInput(
             "Ermhood", "1", "1"
         )
